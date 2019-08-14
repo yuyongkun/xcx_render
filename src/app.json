@@ -1,0 +1,41 @@
+{
+  "pages": [
+    "pages/task/main",
+    "pages/search/main",
+    "pages/my/main",
+    "pages/login/main"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "V5CG云渲染",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/task/main",
+        "text": "任务",
+        "iconPath": "static/images/task-icon.png",
+        "selectedIconPath": "static/images/task-icon-active.png"
+      },
+      {
+        "pagePath": "pages/search/main",
+        "text": "搜索",
+        "iconPath": "static/images/search-icon.png",
+        "selectedIconPath": "static/images/search-icon.png"
+      },
+      {
+        "pagePath": "pages/my/main",
+        "text": "我的",
+        "iconPath": "static/images/my-icon.png",
+        "selectedIconPath": "static/images/my-icon-active.png"
+      }
+    ],
+    "color": "#000",
+    "selectedColor": "#000",
+    "backgroundColor": "#fff",
+    "borderStyle": "white",
+    "position": "bottom"
+  }
+}
