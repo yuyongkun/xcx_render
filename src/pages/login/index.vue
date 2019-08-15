@@ -25,41 +25,41 @@
   </div>
 </template>
 <style scoped lang="scss">
-  .login{
-    width:283px;
-    margin:96px auto 0;
+.login {
+  width: 283px;
+  margin: 96px auto 0;
+  font-size: 14px;
+  .binding-btn {
     font-size: 14px;
-    .binding-btn{
-      font-size: 14px;
-      background-color: #5677FC;
-      color:#fff;
-    }
-    .form-group{
-      margin-bottom: 20px;
-      .form-control{
-        height: 38px;
-        padding:0px 10px;
-        border:1px solid #ddd;
-        background-color: #fff;
-      }
-    }
-    .from-group-password{
-      text-align: right;
-      a{
-        display: inline-block;
-        margin-right: 20px;
-        color:#5578FC;
-      }
-    }
-    .binding-tip{
-      dt{
-        margin-top: 60px;
-        margin-bottom: 10px;
-        color:#FF2A55;
-      }
-      dd{
-        margin-left: 60px;
-      }
+    background-color: #5677fc;
+    color: #fff;
+  }
+  .form-group {
+    margin-bottom: 20px;
+    .form-control {
+      height: 38px;
+      padding: 0px 10px;
+      border: 1px solid #ddd;
+      background-color: #fff;
     }
   }
+  .from-group-password {
+    text-align: right;
+    a {
+      display: inline-block;
+      margin-right: 20px;
+      color: #5578fc;
+    }
+  }
+  .binding-tip {
+    dt {
+      margin-top: 60px;
+      margin-bottom: 10px;
+      color: #ff2a55;
+    }
+    dd {
+      margin-left: 60px;
+    }
+  }
+}
 </style>

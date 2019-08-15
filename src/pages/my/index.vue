@@ -34,12 +34,14 @@
         <h3>V5CG云渲染共帮您节省了1000元</h3>
         <ul>
           <li>
+            <img src="/static/images/invite-icon.png" />
             邀请好友
-            <i>></i>
+            <img class="arrow-right" src="/static/images/arrow-right-icon.png" />
           </li>
           <li>
+            <img src="/static/images/user-account-bind-icon.png" />
             绑定账号
-            <i>></i>
+            <img class="arrow-right" src="/static/images/arrow-right-icon.png" />
           </li>
         </ul>
       </div>
@@ -53,7 +55,7 @@ export default {};
 <style scoped lang="scss">
 .my {
   width: 100%;
-
+  font-size: 14px;
   .my-head {
     .my-head-user {
       display: flex;
@@ -96,6 +98,10 @@ export default {};
         text-align: center;
         dt {
           margin-bottom: 10px;
+          font-size: 14px;
+        }
+        dd {
+          font-size: 12px;
         }
       }
     }
@@ -108,12 +114,13 @@ export default {};
       height: 50px;
       align-items: center;
       justify-content: flex-end;
-      margin: 0 auto 20px;
+      margin: 0 auto 15px;
       border-radius: 4px;
       text-align: right;
       background-color: #f7dc97;
       a {
         margin-right: 10px;
+        font-size: 12px;
         color: #5b533c;
       }
     }
@@ -124,9 +131,20 @@ export default {};
     }
     ul {
       li {
-        margin-bottom: 10px;
-        i {
+        margin-bottom: 20px;
+        font-size: 14px;
+        img {
+          width: 20px;
+          height: 20px;
+          margin-right: 15px;
+          vertical-align: middle;
+        }
+        .arrow-right {
           float: right;
+          width: 20px;
+          height: 20px;
+          padding: 5px;
+          box-sizing: border-box;
         }
       }
     }
